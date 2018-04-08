@@ -4,7 +4,7 @@ body{
     color: #eee !important;
 }
 .search-bar {
-    margin: 20px;
+    margin: 20px 20px 50px 20px;
     text-align: center;
 }
 
@@ -28,6 +28,8 @@ body{
 .list-group-item {
     cursor: pointer;
     background-color: black !important;
+    font-size: small !important;
+    border-bottom: 1px solid white !important;
 }
 
 .list-group-item :hover {
