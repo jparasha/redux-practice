@@ -15,20 +15,21 @@ body{
 }
 
 .video-item img {
-    max-width: 64px;
+    max-width: 70px;
 }
 
 .video-detail details {
     margin-top: 2%;
     padding: 10px;
-    border-bottom: 1px solid #ddd !important;
+    border: none !important;
     border-radius: 4px;
 }
 
 .list-group-item {
     cursor: pointer;
     background-color: black !important;
-    font-size: small !important;
+    font-size : 100% !important;
+    border-bottom: 1px solid gr  !important;
 }
 
 .list-group-item :hover {
