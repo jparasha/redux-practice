@@ -1,3 +1,8 @@
+body{
+    background-color: black !important;
+    font-family: 'Roboto' !important;
+    color: #eee !important;
+}
 .search-bar {
     margin: 20px;
     text-align: center;
@@ -5,6 +10,8 @@
 
 .search-bar input {
     width: 75%;
+    padding: 1%;
+    color: black !important;
 }
 
 .video-item img {
@@ -12,16 +19,17 @@
 }
 
 .video-detail details {
-    margin-top: 10px;
+    margin-top: 2%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd !important;
     border-radius: 4px;
 }
 
 .list-group-item {
     cursor: pointer;
+    background-color: black !important;
 }
 
 .list-group-item :hover {
-    background-color: #eee;
+    background-color: black !important;
 }
